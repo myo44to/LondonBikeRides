@@ -55,12 +55,9 @@ Demand examined at every time granularity, from broadest to finest:
 - Weather condition frequency and average demand compared side-by-side
 - Optimal riding temperature identified (~20–25°C feels-like)
 
-### 5. Correlation & Statistical Testing
+### 5. Drawing Correlations
 - Correlation matrix across all numerical features
-- Pairwise relationship plots (sampled for performance)
-- Independent t-tests: weekday vs. weekend, holiday vs. non-holiday
-- One-way ANOVA across all four seasons
-
+- Pairwise relationship plots
 ---
 
 ## Key Findings
