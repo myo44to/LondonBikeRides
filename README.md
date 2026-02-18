@@ -2,13 +2,12 @@
 
 An end-to-end exploratory data analysis of London's public bike-sharing system, examining how temporal patterns and environmental conditions drive hourly rental demand across a two-year period (2015–2017).
 
+**Data Source:** [London Bike Sharing Dataset — Kaggle](https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset)
+**Dashboard:** https://public.tableau.com/shared/SXFWWPP9N?:display_count=n&:origin=viz_share_link
+
 ---
 
-## Dataset
-
-**Source:** [London Bike Sharing Dataset — Kaggle](https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset)
-
-The dataset contains 17,414 hourly observations recorded by London's bike-sharing system, covering:
+## Dataset Features
 
 | Feature | Description |
 |---|---|
@@ -25,16 +24,6 @@ The dataset contains 17,414 hourly observations recorded by London's bike-sharin
 
 ---
 
-## Project Structure
-
-```
-├── london_bikes_eda.ipynb      # Main analysis notebook
-├── london_bikes_final.xlsx     # Cleaned and enriched dataset (exported for Tableau)
-├── conclusion.md               # Key findings summary
-└── README.md
-```
-
----
 
 ## Analysis Overview
 
@@ -85,7 +74,7 @@ Demand examined at every time granularity, from broadest to finest:
 | 6 | Humidity | Negative | Partially captured by feels-like temperature |
 | 7 | Wind speed | Negative | Weakest weather predictor |
 
-**Bottom line:** *When* someone rides is driven by the clock and the commute. *Whether* they ride at all is driven by how the weather feels outside.
+*When* someone rides is driven by the clock and the commute. *Whether* they ride at all is driven by how the weather feels outside.
 
 ---
 
@@ -101,6 +90,5 @@ Demand examined at every time granularity, from broadest to finest:
 
 ---
 
-## Output
-
-The cleaned and feature-enriched dataset is exported to `london_bikes_final.xlsx` for use in Tableau dashboard development.
+## Tableau Dashboard Link:
+https://public.tableau.com/shared/SXFWWPP9N?:display_count=n&:origin=viz_share_link
